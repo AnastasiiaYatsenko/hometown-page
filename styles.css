@@ -1,0 +1,108 @@
+body {
+  background-color: #f1faee;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 800px;
+  border: 1px solid #1d3557;
+  border-radius: 4px;
+  box-shadow: 0 0 1px #1d3557;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 5px #1d3557;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 900px;
+  background-color: #eff7f6;
+  padding-bottom: 30px;
+}
+
+.header {
+  background-image: url("images/kyiv-background-image.jpg");
+  height: 400px;
+  width: 100%;
+  max-width: 900px;
+  background-size: 900px 400px;
+  padding-top: 5px;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  box-shadow: 0 0 5px #1d3557;;
+}
+
+.header-title {
+  margin-top: 80px;
+  font-size: 80px;
+  text-shadow: 0 0 30px black;
+}
+
+.header-paragraph {
+  font-size: 35px;
+  text-shadow: 0px 0px 100px black;
+}
+
+.history-section {
+  margin: 30px 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.history-link {
+  font-size: 20px;
+}
+
+.sightseeing-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  gap: 12px;
+}
+
+.sightseeing-images {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sightseeing-places {
+  width: 170px;
+}
+
+.sightseeing-places p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.photo-section {
+  margin: 30px 20px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.photos img {
+  width: 90%;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 6px;
+}
